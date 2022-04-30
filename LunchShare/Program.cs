@@ -1,2 +1,9 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿using LunchShare;
+
+DeclarationAndTypePattern.DeclarationTypePatterns();
+DeclarationAndTypePattern.DeclarationArrayPatterns();
+
+bool A() => true;
+bool B() => false;
+
+var c = A() ?: B();
